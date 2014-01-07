@@ -1,0 +1,21 @@
+1. Program Simple Template Mathing (Pragmatic Level)
+    Buat program yang melakukan komparasi 2 citra dan menghasilkan persentase dari match pixel setiap yang terdapat pada pixel kedua citra.
+format program :
+1. Dapat menggunakan GUI
+2. Atau menggunakan CLI dengan format :
+$nama_program -s namafile1 -m namafile2
+option :
+    -s  : sumber citra 1
+    -m : sumber citra 2
+ 
+2. Image RGB to Gray Scale
+   Buat program untuk melakukan konversi dari RGB ke Gray scale. Nilai yang digunkan untuk persentase warna yang diambil dapat menggunakan banyak referensi seperti manual opencv (ada di materi).
+ 
+format progra :
+$nama_program -s namafile -o fileoutput
+option : 
+    -s  : sumber citra rgb
+    -o  : output file citra grayscale
+ 
+Deadline :
+20 Oktober 2013, pukul 00.00
