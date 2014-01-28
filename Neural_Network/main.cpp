@@ -12,7 +12,6 @@
 #include "dataEntry.h"
 #include "dataReader.h"
 #include "neuralNetwork.h"
-
 #include <opencv2\core\core.hpp>
 #include <opencv2\highgui\highgui.hpp>
 #include <opencv2\imgproc\imgproc.hpp>
@@ -20,8 +19,8 @@
 //use standard namespace
 using namespace std;
 
-void main()
-{	
+void load_image()
+{
 	IplImage * img;
 	IplImage * gray;
 	IplImage * histogram;
@@ -128,13 +127,16 @@ void main()
 		fprintf(pFile, "\n");
 	}
 	fclose(pFile);
-	
 
+	}
+
+void training_image()
+{
 	//create data set reader
 	dataReader d;
 
 	//load data file
-	d.loadDataFile("Recognition.txt",16,1);
+	d.loadDataFile("Recognisi.txt",16,1);
 	d.setCreationApproach( STATIC );
 
 	//create neural network
@@ -142,7 +144,7 @@ void main()
 	nn.enableLogging("trainingResults.csv");
 	nn.setLearningParameters(0.01, 0.8);
 	nn.setDesiredAccuracy(100);
-	nn.setMaxEpochs(100);
+	nn.setMaxEpochs(200);
 	
 	
 	//dataset
@@ -157,4 +159,21 @@ void main()
 	
 	cout << "-- END OF PROGRAM --" << endl;
 	char c; cin >> c;
+}
+
+void main()
+{	
+	int pil;
+	printf("Aplikasi Pengolahan Citra\n");
+	printf("1. Ambil Gambar\n");
+	printf("2. Learning Gambar\n");
+	printf("3. Keluar\n");
+	printf("Masukkan pilihan [1-3] ? "); scanf_s("%d",&pil);
+	switch (pil) {
+	case 1: load_image(); break;
+	case 2: training_image(); break;
+	case 3: exit(0); 
+	default: "Pilihan tidak ada";
+	}
+	system("PAUSE");	
 }
