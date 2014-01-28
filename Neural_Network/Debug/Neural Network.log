@@ -1,0 +1,28 @@
+﻿Build started 28/01/2014 16:33:48.
+     1>Project "D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Neural Network.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\opencv2.2\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\datareader.h(260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\datareader.h(264): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\datareader.h(272): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\main.cpp(51): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\main.cpp(57): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\main.cpp(26): warning C4101: 'gray' : unreferenced local variable
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\main.cpp(29): warning C4101: 'i_max' : unreferenced local variable
+     1>d:\data pindah\universitas\semester 7\grafika dan pengolahan citra\neural network\main.cpp(27): warning C4101: 'histogram' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Debug\Neural Network.exe" /NOLOGO opencv_calib3d220d.lib opencv_contrib220d.lib opencv_core220d.lib opencv_features2d220d.lib opencv_ffmpeg220d.lib opencv_flann220d.lib opencv_gpu220d.lib opencv_highgui220d.lib opencv_imgproc220d.lib opencv_legacy220d.lib opencv_ml220d.lib opencv_objdetect220d.lib opencv_video220d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Debug\Neural Network.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Debug\Neural Network.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Neural Network.vcxproj -> D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Debug\Neural Network.exe
+     1>Done Building Project "D:\Data Pindah\Universitas\Semester 7\Grafika dan Pengolahan Citra\Neural Network\Neural Network.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58

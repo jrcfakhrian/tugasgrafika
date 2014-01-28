@@ -1,0 +1,5 @@
+Epoch,Training Set Accuracy, Generalization Set Accuracy,Training Set MSE, Generalization Set MSE
+0,-1.#IND,-1.#IND,-1.#IND,-1.#IND
+1,-1.#IND,-1.#IND,-1.#IND,-1.#IND
+
+Training Complete!!! - > Elapsed Epochs: 1 Validation Set Accuracy: -1.#IND Validation Set MSE: -1.#IND
